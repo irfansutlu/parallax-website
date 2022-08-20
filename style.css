@@ -24,16 +24,18 @@ body {
   background-image: url("./img/bg.jpg");
   min-height: 100vh;
 }
-.heading1 {
+.headingg {
   text-align: center;
   font-size: 3rem;
   letter-spacing: 0.5rem;
   color: white;
   background-color: black;
-  padding: 2.5rem;
   border-radius: 2rem 0rem;
   outline: 0.5rem inset purple;
-  outline-offset: 1rem;
+}
+.sec1{
+    padding: 2.5rem;
+    outline-offset: 1rem;
 }
 .contentt {
   text-align: center;
@@ -45,6 +47,9 @@ body {
 .contentt p {
   margin-top: 2rem;
 }
+.backgroundd img{
+    width: 30rem;
+}
 .img2{
     background-image: url(./img/bg2.jpg);
     min-height: 100vh;
@@ -53,3 +58,32 @@ body {
     background-color: #282e34;
     color: white;
 }
+.img3{
+    background-image: url(./img/bg3.jpg);
+    min-height: 100vh;
+}
+.sec3{
+    padding: 1.5rem;
+    outline-offset: 0.3rem;
+}
+.img4{
+    background-image: url(./img/bg4.jpg);
+    min-height: 100vh;
+}
+.img5{
+    background-image: url(./img/bg1.jpg);
+    min-height: 100vh;
+}
+footer{
+    background: rgb(241, 241, 241);
+}
+footer a{
+    margin: 2rem;
+}
+footer i{
+    color: #666;
+}
+ footer i:hover{
+    cursor: pointer;
+    color: purple;
+ }
